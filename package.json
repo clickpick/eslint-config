@@ -1,6 +1,6 @@
 {
   "name": "@clickpick/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "description": "ESLint config with TypeScript support for React projects",
   "author": "Nikita Barinov",
