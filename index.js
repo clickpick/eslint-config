@@ -13,6 +13,7 @@ module.exports = defineConfig({
     'curly': 0,
     'no-duplicate-imports': 0,
     'react-hooks/rules-of-hooks': 0,
+    'react/react-in-jsx-scope': 0,
   },
   settings: {
     react: {
