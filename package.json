@@ -1,0 +1,45 @@
+{
+  "name": "@clickpick/eslint-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "ESLint config with TypeScript support for React projects",
+  "author": "Nikita Barinov",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "typescript",
+    "clickpick"
+  ],
+  "homepage": "https://github.com/clickpick/eslint-config",
+  "bugs": "https://github.com/clickpick/eslint-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickpick/eslint-config.git"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.0.6",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@vkontakte/eslint-config": "^3.0.0",
+    "eslint-define-config": "^1.0.9",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": false
+    },
+    "typescript": {
+      "optional": false
+    }
+  }
+}
